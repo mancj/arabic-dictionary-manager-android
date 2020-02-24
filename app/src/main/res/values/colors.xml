@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#531AD1</color>
+    <color name="colorPrimaryDark">#4415AD</color>
+    <color name="colorAccent">#ff651fff</color>
+    <color name="defaultBackground">#F7F7F8</color>
+    <color name="progress_color">#e6ffffff</color>
+    <color name="borderColor">#CED2DD</color>
+
+    <color name="background_match_highlight">#f4f4f7</color>
+    <color name="primaryBackground">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="primaryText">#000000</color>
+    <color name="cardHover">#FBFBFC</color>
+    <color name="snackbarBackground">#F1F1F5</color>
+    <color name="snackbarActionBg">#E8E8ED</color>
+    <color name="statusBarColor">#b9bbd2</color>
+    <color name="hintColor">#B6B7C5</color>
+    <color name="card_title_bkg">#AAABD2</color>
+    <color name="secondary_text">#685E7A</color>
+    <color name="colorAccentPressed">#531AD1</color>
+    <color name="colorAccentOpaque">#E6651FFF</color>
+    <color name="arabic_text">#1a0dab</color>
+    <color name="black">#000000</color>
+    <color name="splash_bg_dark">#2D253F</color>
+    <color name="training_result_correct">#88E6A3</color>
+    <color name="check_button">#6FC15D</color>
+    <color name="training_result_incorrect">#f26076</color>
+</resources>
