@@ -14,7 +14,9 @@ import io.ktor.http.ContentType
 import io.ktor.http.contentType
 import javax.inject.Inject
 
-interface DailyArticleView : BaseMvpView
+interface DailyArticleView : BaseMvpView {
+    fun onNotificationSend()
+}
 
 @InjectViewState
 class DailyArticlePresenter : BaseMvpPresenter<DailyArticleView>() {
@@ -40,6 +42,7 @@ class DailyArticlePresenter : BaseMvpPresenter<DailyArticleView>() {
                 val shortText = if (shortText.isEmpty()) null else shortText
                 body = buildNotificationRequest(notificationTitle, arabicText, translation, articleId, shortText, debug)
             }
+            viewState.onNotificationSend()
         }
 
     private fun buildNotificationRequest(

@@ -1,6 +1,7 @@
 package io.arabic.dictionary.manager.ui.screen.dailyarticle
 
 import android.os.Bundle
+import android.widget.Toast
 import androidx.core.view.children
 import androidx.core.view.isVisible
 import com.arellomobile.mvp.presenter.InjectPresenter
@@ -68,4 +69,8 @@ class DailyArticleActivity : BaseMvpActivity(), DailyArticleView {
             .all { it }
     }
 
+    override fun onNotificationSend() {
+        Toast.makeText(this, "Уведомление успешно отправлено", Toast.LENGTH_SHORT).show()
+        finish()
+    }
 }
